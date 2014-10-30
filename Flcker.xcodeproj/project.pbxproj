@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B12B0901A02D54B005AD042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B12B08F1A02D54B005AD042 /* Foundation.framework */; };
+		8B12B0921A02D54B005AD042 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B12B0911A02D54B005AD042 /* CoreGraphics.framework */; };
+		8B12B0941A02D54B005AD042 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B12B0931A02D54B005AD042 /* UIKit.framework */; };
+		8B12B09A1A02D54B005AD042 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B12B0981A02D54B005AD042 /* InfoPlist.strings */; };
+		8B12B09C1A02D54B005AD042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B12B09B1A02D54B005AD042 /* main.m */; };
+		8B12B0A01A02D54B005AD042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B12B09F1A02D54B005AD042 /* AppDelegate.m */; };
+		8B12B0A21A02D54B005AD042 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B12B0A11A02D54B005AD042 /* Images.xcassets */; };
+		8B12B0A91A02D54B005AD042 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B12B0A81A02D54B005AD042 /* XCTest.framework */; };
+		8B12B0AA1A02D54C005AD042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B12B08F1A02D54B005AD042 /* Foundation.framework */; };
+		8B12B0AB1A02D54C005AD042 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B12B0931A02D54B005AD042 /* UIKit.framework */; };
+		8B12B0B31A02D54C005AD042 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B12B0B11A02D54C005AD042 /* InfoPlist.strings */; };
+		8B12B0B51A02D54C005AD042 /* FlckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B12B0B41A02D54C005AD042 /* FlckerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B12B0AC1A02D54C005AD042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B12B0841A02D54B005AD042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B12B08B1A02D54B005AD042;
+			remoteInfo = Flcker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B12B08C1A02D54B005AD042 /* Flcker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flcker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B12B08F1A02D54B005AD042 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B12B0911A02D54B005AD042 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B12B0931A02D54B005AD042 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B12B0971A02D54B005AD042 /* Flcker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flcker-Info.plist"; sourceTree = "<group>"; };
+		8B12B0991A02D54B005AD042 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B12B09B1A02D54B005AD042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B12B09D1A02D54B005AD042 /* Flcker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flcker-Prefix.pch"; sourceTree = "<group>"; };
+		8B12B09E1A02D54B005AD042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B12B09F1A02D54B005AD042 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B12B0A11A02D54B005AD042 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B12B0A71A02D54B005AD042 /* FlckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B12B0A81A02D54B005AD042 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8B12B0B01A02D54C005AD042 /* FlckerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlckerTests-Info.plist"; sourceTree = "<group>"; };
+		8B12B0B21A02D54C005AD042 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B12B0B41A02D54C005AD042 /* FlckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlckerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B12B0891A02D54B005AD042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B12B0921A02D54B005AD042 /* CoreGraphics.framework in Frameworks */,
+				8B12B0941A02D54B005AD042 /* UIKit.framework in Frameworks */,
+				8B12B0901A02D54B005AD042 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B12B0A41A02D54B005AD042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B12B0A91A02D54B005AD042 /* XCTest.framework in Frameworks */,
+				8B12B0AB1A02D54C005AD042 /* UIKit.framework in Frameworks */,
+				8B12B0AA1A02D54C005AD042 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B12B0831A02D54B005AD042 = {
+			isa = PBXGroup;
+			children = (
+				8B12B0951A02D54B005AD042 /* Flcker */,
+				8B12B0AE1A02D54C005AD042 /* FlckerTests */,
+				8B12B08E1A02D54B005AD042 /* Frameworks */,
+				8B12B08D1A02D54B005AD042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B12B08D1A02D54B005AD042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B12B08C1A02D54B005AD042 /* Flcker.app */,
+				8B12B0A71A02D54B005AD042 /* FlckerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B12B08E1A02D54B005AD042 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B12B08F1A02D54B005AD042 /* Foundation.framework */,
+				8B12B0911A02D54B005AD042 /* CoreGraphics.framework */,
+				8B12B0931A02D54B005AD042 /* UIKit.framework */,
+				8B12B0A81A02D54B005AD042 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B12B0951A02D54B005AD042 /* Flcker */ = {
+			isa = PBXGroup;
+			children = (
+				8B12B09E1A02D54B005AD042 /* AppDelegate.h */,
+				8B12B09F1A02D54B005AD042 /* AppDelegate.m */,
+				8B12B0A11A02D54B005AD042 /* Images.xcassets */,
+				8B12B0961A02D54B005AD042 /* Supporting Files */,
+			);
+			path = Flcker;
+			sourceTree = "<group>";
+		};
+		8B12B0961A02D54B005AD042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B12B0971A02D54B005AD042 /* Flcker-Info.plist */,
+				8B12B0981A02D54B005AD042 /* InfoPlist.strings */,
+				8B12B09B1A02D54B005AD042 /* main.m */,
+				8B12B09D1A02D54B005AD042 /* Flcker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B12B0AE1A02D54C005AD042 /* FlckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B12B0B41A02D54C005AD042 /* FlckerTests.m */,
+				8B12B0AF1A02D54C005AD042 /* Supporting Files */,
+			);
+			path = FlckerTests;
+			sourceTree = "<group>";
+		};
+		8B12B0AF1A02D54C005AD042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B12B0B01A02D54C005AD042 /* FlckerTests-Info.plist */,
+				8B12B0B11A02D54C005AD042 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B12B08B1A02D54B005AD042 /* Flcker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B12B0B81A02D54C005AD042 /* Build configuration list for PBXNativeTarget "Flcker" */;
+			buildPhases = (
+				8B12B0881A02D54B005AD042 /* Sources */,
+				8B12B0891A02D54B005AD042 /* Frameworks */,
+				8B12B08A1A02D54B005AD042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flcker;
+			productName = Flcker;
+			productReference = 8B12B08C1A02D54B005AD042 /* Flcker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B12B0A61A02D54B005AD042 /* FlckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B12B0BB1A02D54C005AD042 /* Build configuration list for PBXNativeTarget "FlckerTests" */;
+			buildPhases = (
+				8B12B0A31A02D54B005AD042 /* Sources */,
+				8B12B0A41A02D54B005AD042 /* Frameworks */,
+				8B12B0A51A02D54B005AD042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B12B0AD1A02D54C005AD042 /* PBXTargetDependency */,
+			);
+			name = FlckerTests;
+			productName = FlckerTests;
+			productReference = 8B12B0A71A02D54B005AD042 /* FlckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B12B0841A02D54B005AD042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					8B12B0A61A02D54B005AD042 = {
+						TestTargetID = 8B12B08B1A02D54B005AD042;
+					};
+				};
+			};
+			buildConfigurationList = 8B12B0871A02D54B005AD042 /* Build configuration list for PBXProject "Flcker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B12B0831A02D54B005AD042;
+			productRefGroup = 8B12B08D1A02D54B005AD042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B12B08B1A02D54B005AD042 /* Flcker */,
+				8B12B0A61A02D54B005AD042 /* FlckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B12B08A1A02D54B005AD042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B12B09A1A02D54B005AD042 /* InfoPlist.strings in Resources */,
+				8B12B0A21A02D54B005AD042 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B12B0A51A02D54B005AD042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B12B0B31A02D54C005AD042 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B12B0881A02D54B005AD042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B12B0A01A02D54B005AD042 /* AppDelegate.m in Sources */,
+				8B12B09C1A02D54B005AD042 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B12B0A31A02D54B005AD042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B12B0B51A02D54C005AD042 /* FlckerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B12B0AD1A02D54C005AD042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B12B08B1A02D54B005AD042 /* Flcker */;
+			targetProxy = 8B12B0AC1A02D54C005AD042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B12B0981A02D54B005AD042 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B12B0991A02D54B005AD042 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8B12B0B11A02D54C005AD042 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B12B0B21A02D54C005AD042 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B12B0B61A02D54C005AD042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B12B0B71A02D54C005AD042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B12B0B91A02D54C005AD042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flcker/Flcker-Prefix.pch";
+				INFOPLIST_FILE = "Flcker/Flcker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8B12B0BA1A02D54C005AD042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flcker/Flcker-Prefix.pch";
+				INFOPLIST_FILE = "Flcker/Flcker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8B12B0BC1A02D54C005AD042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flcker.app/Flcker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flcker/Flcker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlckerTests/FlckerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8B12B0BD1A02D54C005AD042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Flcker.app/Flcker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Flcker/Flcker-Prefix.pch";
+				INFOPLIST_FILE = "FlckerTests/FlckerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B12B0871A02D54B005AD042 /* Build configuration list for PBXProject "Flcker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B12B0B61A02D54C005AD042 /* Debug */,
+				8B12B0B71A02D54C005AD042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B12B0B81A02D54C005AD042 /* Build configuration list for PBXNativeTarget "Flcker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B12B0B91A02D54C005AD042 /* Debug */,
+				8B12B0BA1A02D54C005AD042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B12B0BB1A02D54C005AD042 /* Build configuration list for PBXNativeTarget "FlckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B12B0BC1A02D54C005AD042 /* Debug */,
+				8B12B0BD1A02D54C005AD042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B12B0841A02D54B005AD042 /* Project object */;
+}
